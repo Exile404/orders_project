@@ -12,9 +12,8 @@ This project is a simple Django-based API for managing orders. It includes endpo
 ## Setup Instructions
 
 ### 1. Clone the repository
-
-cd orders_project
-
+      git clone https://github.com/Exile404/orders_project.git
+      cd orders_project
 
 ### 2. Create a virtual environment
 
