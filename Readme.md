@@ -34,8 +34,15 @@ This project is a simple Django-based API for managing orders. It includes endpo
 
     python manage.py runserver
 
+### To get all API points
 
-The API will be available at `http://localhost:8000/api/`.
+      The API are available at `https://orders-project.onrender.com/api/`.
+      To run in a local machine replace https://orders-project.onrender.com with http://127.0.0.1:8000/api/
+
+### 6.  To get full API Documentation. Run:
+      https://orders-project.onrender.com/redoc/
+      or
+      https://orders-project.onrender.com/swagger/
 
 ## Running Tests
 
@@ -45,7 +52,7 @@ To run the automated tests, use the following command:
 
 ## Testing the API using Postman
 1. To create an order
-   1. http://127.0.0.1:8000/api/orders/
+   1. https://orders-project.onrender.com/api/orders/
    2. Method: POST
     ```json
     {
@@ -58,13 +65,13 @@ To run the automated tests, use the following command:
     }
     ```
 2. To get all orders list
-   1. http://127.0.0.1:8000/api/orders/
+   1. https://orders-project.onrender.com/api/orders/
    2. Method: GET
 3. To get information of a particular order
-   1. http://127.0.0.1:8000/api/orders/:order_id/
+   1. https://orders-project.onrender.com/api/orders/:order_id/
    2. Method: GET
 4. To update a full order
-   1.  http://127.0.0.1:8000/api/orders/:order_id/
+   1.  https://orders-project.onrender.com/api/orders/:order_id/
    2. Method: PUT
    ```json
     {
@@ -77,7 +84,7 @@ To run the automated tests, use the following command:
     }
     ```
 5. To update partial of an order
-    1.  http://127.0.0.1:8000/api/orders/:order_id/
+   1.    https://orders-project.onrender.com/api/orders/:order_id/
     2. Method: PATCH 
     ```json
     {
@@ -88,5 +95,5 @@ To run the automated tests, use the following command:
     }
     ```
 6. To delete an order
-   1.  http://127.0.0.1:8000/api/orders/:order_id/
+   1.  https://orders-project.onrender.com/api/orders/:order_id/
    2. Method: DELETE
